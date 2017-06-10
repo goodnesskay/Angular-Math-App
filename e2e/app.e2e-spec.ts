@@ -1,10 +1,10 @@
-import { AngularCalcPage } from './app.po';
+import { AngularMathApp } from './app.po';
 
 describe('angular-calc App', () => {
-  let page: AngularCalcPage;
+  let page: AngularMathApp;
 
   beforeEach(() => {
-    page = new AngularCalcPage();
+    page = new AngularMathApp();
   });
 
   it('should display welcome message', () => {

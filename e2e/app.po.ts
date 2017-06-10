@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class AngularCalcPage {
+export class AngularMathApp {
   navigateTo() {
     return browser.get('/');
   }
