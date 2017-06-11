@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular Math App';
+  heroes = [
+    {
+      id: "1",
+      name: "Elon Musk"
+    },
+    {
+      id: "2",
+      name: "isksn Musk"
+    },
+    {
+      id: "3",
+      name: "habc Musk"
+    }
+  ];
+
+  isCorrect= true;
 }
